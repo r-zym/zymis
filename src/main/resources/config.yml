@@ -1,0 +1,91 @@
+messages:
+  items_waiting:
+    text: "&aYou have items waiting to be claimed! Type /claim"
+    type: "BOSSBAR"
+    color: "GREEN"
+    style: "PROGRESS"
+
+  product_created:
+    text: "&aSuccessfully created product: &e{product}&a!"
+    type: "CHAT"
+
+  product_edited:
+    text: "&aSuccessfully edited product: &e{product}&a!"
+    type: "CHAT"
+
+  product_removed:
+    text: "&aSuccessfully removed product: &e{product}&a!"
+    type: "CHAT"
+
+  product_not_found:
+    text: "&cProduct named &e{product}&c was not found!"
+    type: "CHAT"
+
+  gave_product:
+    text: "&aSuccessfully gave &e{amount}x {product} &ato player &e{player}&a!"
+    type: "CHAT"
+
+  no_items_to_claim:
+    text: "&cYou have no items to claim."
+    type: "CHAT"
+
+  claimed_item:
+    text: "&aSuccessfully claimed the item!"
+    type: "CHAT"
+
+  inventory_full:
+    text: "&cYour inventory is full!"
+    type: "CHAT"
+
+  must_place_item:
+    text: "&cYou must place an item in the center slot!"
+    type: "CHAT"
+
+  no_permission:
+    text: "&cYou do not have permission to use this command!"
+    type: "CHAT"
+
+  player_only:
+    text: "&cOnly players can use this command!"
+    type: "CHAT"
+
+  unknown_command:
+    text: "&cUnknown command! Usage: {usage}"
+    type: "CHAT"
+
+  error:
+    text: "&cAn error occurred while executing the command!"
+    type: "CHAT"
+
+  player_not_found:
+    text: "&cPlayer not found!"
+    type: "CHAT"
+
+menus:
+  creator:
+    title: "&8Product creator"
+    items:
+      cancel:
+        material: BARRIER
+        name: "&cCancel and exit"
+        slot: 0
+
+      filler:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        slots: [1, 3]
+
+      confirm:
+        material: OAK_BUTTON
+        name: "&aConfirm and create"
+        slot: 4
+
+  claim:
+    title: "&8Claim items"
+    rows: 6
+
+    filler:
+      material: LIGHT_GRAY_STAINED_GLASS_PANE
+      name: " "
+
+products: {}
